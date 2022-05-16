@@ -1,0 +1,90 @@
+http://localhost:5000/livres  (Listes des livres)
+
+{
+    "Livres": [
+        {
+            "auteur": "Charles BAUDELAIRE",
+            "date publication": "Tue, 21 Jul 1857 00:00:00 GMT",
+            "editeur": "Auguste Poulet-Malassis",
+            "id": 1,
+            "id categorie": 6,
+            "isbn": "1956385230546",
+            "titre": "fleur du mal"
+        },
+        {
+            "auteur": "lary",
+            "date publication": "Tue, 08 May 1990 00:00:00 GMT",
+            "editeur": "remo",
+            "id": 2,
+            "id categorie": 2,
+            "isbn": "1228544963615",
+            "titre": "rose"
+        },
+        {
+            "auteur": "Laurent Gounelle",
+            "date publication": "Tue, 22 Feb 2022 00:00:00 GMT",
+            "editeur": "Calmann-Lévy",
+            "id": 8,
+            "id categorie": 2,
+            "isbn": "9216384138566",
+            "titre": "le réveil"
+        }
+    ],
+    "nombre de livres": 3,
+    "success": true
+}
+
+
+
+http://localhost:5000/livres/1    (Selection d'un livres (llivre n°1) )
+
+
+{
+    "livre": {
+        "auteur": "Charles BAUDELAIRE",
+        "date publication": "Tue, 21 Jul 1857 00:00:00 GMT",
+        "editeur": "Auguste Poulet-Malassis",
+        "id": 1,
+        "id categorie": 6,
+        "isbn": "1956385230546",
+        "titre": "fleur du mal"
+    },
+    "success": true
+}
+
+
+http://localhost:5000/categorie  (Lister les categories)
+
+{
+    "Liste categories": [
+        {
+            "id": 2,
+            "libelle_categorie": "aner",
+            "nom": "Canul"
+        },
+        {
+            "id": 4,
+            "libelle_categorie": "reme",
+            "nom": "Canular"
+        },
+        {
+            "id": 6,
+            "libelle_categorie": "poesie",
+            "nom": "Poesie-Lyric"
+        }
+    ],
+    "nombre categories": 3,
+    "success": true
+}
+
+
+http://localhost:5000/categorie/1   (Selectionner une categorie)
+
+{
+    "Categorie": {
+        "id": 2,
+        "libelle_categorie": "aner",
+        "nom": "Canul"
+    },
+    "success": true
+}
