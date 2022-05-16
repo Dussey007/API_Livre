@@ -46,21 +46,21 @@ De l'intérieur du `Livre_api` Assurez-vous d'abord que vous travaillez en utili
 Pour lancer sur Linux ou Mac, exécuter:
 
 ```bash
-export FLASK_APP=flaskr
+export FLASK_APP=api
 export FLASK_ENV=development
 flask run
 ```
 Pour lancer le serveur sur Windows, exécuter:
 
 ```bash
-set FLASK_APP=flaskr
+set FLASK_APP=api
 set FLASK_ENV=development
 flask run
 ```
 
 Paraméttrer le `FLASK_ENV` variable en `development` va détecter les fichiers changé puis va recharger le serveur automatiquement.
 
-Paraméttrer le `FLASK_APP` variable en `flaskr` directement flask pour utiliser le dossier `flaskr` et le fichier  `__init__.py` afin de troyuver l'application.
+Paraméttrer le `FLASK_APP` variable en `api` directement flask pour utiliser le dossier `api` et le fichier  `__init__.py` afin de troyuver l'application.
 
 Vous pouvez toute fois carrément directement le lancer avec l'onglet execute dans VsCode, si vous l'utilisez. 
 
